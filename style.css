@@ -56,7 +56,12 @@ background-color: aquamarine;
     flex-direction: column;
     border-radius: 3px;
 }
-#show-icon{
+.show-icon{
     height: 20px;
     width: 35px;
+}
+.show-icon-b{
+    height: 20px;
+    width: 35px;
+    transform: rotate(180deg);
 }
