@@ -15,7 +15,6 @@ showBtn.addEventListener("click", () => {
     optinBox.style.display = "flex";
     turn=false;
 }else{
-    showBtn.innerText = "Show";
     optinBox.style.display = "none";
     turn=true;
 }
