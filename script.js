@@ -6,6 +6,9 @@ const showIcon = document.querySelector(".show-icon");
 optionn.forEach((optionn) => {
     optionn.addEventListener("click", () => {
         selectArea.innerText = optionn.innerText;
+        optinBox.style.display = "none";
+            showIcon.className = "show-icon";
+
     });
 });
 let turn=true;
